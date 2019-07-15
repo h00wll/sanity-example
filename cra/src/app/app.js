@@ -9,6 +9,7 @@ import { Post } from '../posts/post'
 import { Posts } from '../posts/posts'
 // @ts-ignore
 import styles from './app.module.css'
+import { Errors } from '../general/errors/errors'
 
 function App() {
   return (
@@ -37,6 +38,8 @@ function App() {
       <div className={styles.authors}>
         <Authors />
       </div>
+
+      <Errors />
     </div>
   )
 }
