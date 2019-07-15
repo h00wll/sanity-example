@@ -1,0 +1,15 @@
+{
+  "name": "sanity-example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "deploy": "firebase deploy"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "tabWidth": 2,
+    "singleQuote": true,
+    "semi": false,
+    "trailingComma": "all"
+  }
+}
